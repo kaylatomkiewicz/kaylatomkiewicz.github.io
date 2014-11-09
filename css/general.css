@@ -1,3 +1,114 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/*********************************************************		Masthead		***************/
+
+@media only screen and (min-width: 14em) {
+	
+	.header {
+		height: 3rem;
+		background-color: #3C3C3C;
+		position: absolute;
+		top: 0rem;
+		width: 100%;
+	}
+	
+	nav {
+		text-align; center;
+		margin-top: 0;
+		list-style: none;
+		position: relative;
+		top: -30px;
+		left: -14px;
+	}
+	
+	nav li {
+		display: inline-block;
+		color: #fff;
+		font-family: 'Archivo Narrow', sans-serif;
+		padding-right: 1.5rem;
+	}
+	
+	nav li:last-child {
+		padding-right: 0;
+	}
+		
+	.logo {
+		margin: 0;
+		position: relative;
+		top: 5px;
+	}
+	
+}
+	
+
+
+/*********************************************************		Body			***************/
+
+
+@media only screen and (min-width: 14em) {
+	
+	body {
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
+	
+	h1 {
+
+	}
+	
+	h2 {
+		font-size: 1	.4em;
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+	}
+	
+	h3 {
+		font-size: 1.2em;
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+	}
+	
+	h4 {
+		font-size: 1em;
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+	}
+	
+	p {
+		font-family: 'Archivo Narrow', sans-serif;
+	}
+
+}
+
+@media only screen and (min-width: 30em) {
+
+}
+
+/*********************************************************		Footer		***************/
+
+@media only screen and (min-width: 14em) {
+	
+	.foot {
+		height: 3rem;
+		background-color: #3C3C3C;
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+	}
+	
+	.copyright {
+		text-align: left;
+		margin-left: 18px;
+		color: #fff;
+	}
+}
+
+
+
+
+
+
+
+
