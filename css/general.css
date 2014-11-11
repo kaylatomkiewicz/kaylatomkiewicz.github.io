@@ -46,27 +46,14 @@
 
 @media only screen and (min-width: 12em) {
 	
-	/*.halfscale {
-		visibility: visible;
-		width: 100%;
-		margin: 3rem auto 7rem;
-	}
-	
-	.fullscale {
-		visibility: hidden;
-		width: 100%;
-		margin-top: 3rem;
-		background-color: #7D7D7D;
-	} */
-	
 	.fullscale {
 		visibility: visible;
 		width: 100%;
 		margin-top: 3rem;
-		background-color: #7D7D7D;
 	}
+	
 	.intro {
-		margin: 4rem auto 1rem;
+		margin: 3rem auto 1rem;
 		font-size: 1.5rem;
 		max-width: 80%;
 	}
@@ -74,22 +61,16 @@
 	.intro-desc {
 		width: 70%;
 		margin: 0 auto;
-		margin-bottom: 2rem;
+		margin-bottom: 3rem;
 	}
 }
 	
 @media only screen and (min-width: 30em) {
-	
-	/*.halfscale {
-		visibility: hidden;
-		display: none;
-	} */
-	
+		
 	.fullscale {
 		visibility: visible;
 		width: 100%;
 		margin-top: 3rem;
-		background-color: #7D7D7D;
 	}
 	
 	.intro {
@@ -105,7 +86,6 @@
 		visibility: visible;
 		width: 100%;
 		margin-top: 3rem;
-		background-color: #7D7D7D;
 	}
 	
 	.intro {
@@ -126,7 +106,7 @@
 	
 	
 	.image-grid {
-		padding: 5rem 0;
+		padding: 6rem 0;
 		background-color: #7D7D7D;
 		overflow: hidden;
 	}
@@ -142,14 +122,12 @@
 	}
 	
 	.image:active {
-		color: #8F8F8F;
-		opacity: 0.75;
+		color: red;
 	}
 		
 	.image:hover {
-		transition: opacity 0.2s ease-in;
-		color: #8F8F8F;
-		opacity: 0.75;
+		transition: color 0.2s ease-in;
+		color: red;
 	}
 			
 	
