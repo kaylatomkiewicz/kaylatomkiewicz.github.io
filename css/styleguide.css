@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media only screen and (min-width: 14em) {
+	
+	body {
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
+	
+	h1 {
+	}
+	
+	h2 {
+		font-size: 1	.4em;
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+	}
+	
+	h3 {
+		font-size: 1.2em;
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+	}
+	
+	h4 {
+		font-size: 1em;
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+	}
+	
+	p {
+		font-family: 'Archivo Narrow', sans-serif;
+		font-size: 1rem;
+	}
+	
+	table td {
+		font-family: 'Archivo Narrow', sans-serif;
+		color: #fff;
+	}
+	
+	ul {
+		list-style: none;
+	}
+	
+	ol {
+		list-style: none;
+	}	
+}

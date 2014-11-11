@@ -46,7 +46,7 @@
 
 @media only screen and (min-width: 14em) {
 	
-	.halfscale {
+	/*.halfscale {
 		visibility: visible;
 		width: 100%;
 		margin: 3rem auto 7rem;
@@ -57,11 +57,18 @@
 		width: 100%;
 		margin-top: 3rem;
 		background-color: #7D7D7D;
-	}
+	} */
 	
+	.fullscale {
+		visibility: visible;
+		width: 100%;
+		margin-top: 3rem;
+		background-color: #7D7D7D;
+	}
 	.intro {
-		margin-top: -38rem;
+		margin: 4rem auto 1rem;
 		font-size: 1.5rem;
+		max-width: 80%;
 	}
 
 	.intro-desc {
@@ -73,10 +80,10 @@
 	
 @media only screen and (min-width: 30em) {
 	
-	.halfscale {
+	/*.halfscale {
 		visibility: hidden;
 		display: none;
-	}
+	} */
 	
 	.fullscale {
 		visibility: visible;
@@ -88,12 +95,6 @@
 	.intro {
 		margin-top: -12rem;
 		font-size: 1.5rem;
-	}
-
-	.intro-desc {
-		width: 70%;
-		margin: 0 auto;
-		margin-bottom: 2rem;
 	}
 	
 }
@@ -108,69 +109,19 @@
 	}
 	
 	.intro {
-		margin-top: -16rem;
-		font-size: 1.5rem;
+		margin-top: -20rem;
+		font-size: 3rem;
 	}
-
+	
 	.intro-desc {
-		width: 70%;
+		max-width: 60%;
+		font-size: 1.5rem;
 		margin: 0 auto;
 		margin-bottom: 2rem;
 	}
-	
+
 }
 
-
-@media only screen and (min-width: 14em) {
-	
-	body {
-		margin: 0;
-		padding: 0;
-		text-align: center;
-	}
-	
-	h1 {
-	}
-	
-	h2 {
-		font-size: 1	.4em;
-		font-family: 'Lato', sans-serif;
-		font-weight: 300;
-	}
-	
-	h3 {
-		font-size: 1.2em;
-		font-family: 'Lato', sans-serif;
-		font-weight: 300;
-	}
-	
-	h4 {
-		font-size: 1em;
-		font-family: 'Lato', sans-serif;
-		font-weight: 300;
-	}
-	
-	p {
-		font-family: 'Archivo Narrow', sans-serif;
-		font-size: 1rem;
-	}
-	
-	table td {
-		font-family: 'Archivo Narrow', sans-serif;
-		color: #fff;
-	}
-	
-	ul {
-		list-style: none;
-	}
-	
-	ol {
-		list-style: none;
-	}
-	
-	
-}
-	
 /******************************************************* GRID **********************/
 	
 	
@@ -178,6 +129,7 @@
 		margin-top: 5rem;
 		padding: 5rem 0;
 		background-color: #7D7D7D;
+		display: ;
 	}
 	
 	.image {
@@ -210,14 +162,6 @@
 
 @media only screen and (min-width: 50em) {
 
-	.box-l-1-4 {
-		width: 25%;
-		float: left;
-	}
-}
-
-@media only screen and (min-width: 70em) {
-
 	.box-xl-1-5 {
 		width: 20%;
 		float: left;
@@ -234,7 +178,6 @@
 	color: #fff;
 	background-color: #4A4A4A;
 	text-align: left;
-	padding-top: 10rem;
 }
 
 .contact-table {
@@ -280,9 +223,7 @@
 .logo-inline {
 	padding-right: 1rem;
 }
-
 }
-
 
 /*********************************************************		Footer		***************/
 
@@ -301,10 +242,6 @@
 		color: #fff;
 	}
 }
-
-
-
-
 
 
 
