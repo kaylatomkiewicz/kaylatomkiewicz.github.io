@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-@media only screen and (min-width: 14em) {
+@media only screen and (min-width: 12em) {
 	
 	body {
 		margin: 0;
@@ -33,6 +33,14 @@
 	p {
 		font-family: 'Archivo Narrow', sans-serif;
 		font-size: 1rem;
+	}
+	
+	em {
+		font-style: italic;
+	}
+	
+	strong {
+		font-style: bold;
 	}
 	
 	table td {
