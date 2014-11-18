@@ -86,6 +86,10 @@
 		font-family: 'Archivo Narrow', sans-serif;
 		color: #fff;
 	}
+	
+	a {
+		list-style: none;
+	}
 }
 
 /* ********************************** 404 *****************/
