@@ -102,11 +102,30 @@
 
 }
 */
+
+/******************************************************* ABOUT **********************/
+
+.about {
+	padding: 6rem 0;
+	background-color: #474747;
+}
+
+.about p {
+	color: #fff;
+	width: 70%;
+	margin: 0 auto;
+	padding-bottom: 1rem;
+}
+
+.about p:last-child {
+	padding-bottom: 0;
+}
+
 /******************************************************* GRID **********************/
 	
 	
 	.image-grid {
-		padding: 3rem 0;
+		padding: 6rem 0;
 		margin: 0;
 		background-color: #7D7D7D;
 		overflow: hidden;

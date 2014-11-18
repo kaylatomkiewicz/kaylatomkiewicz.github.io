@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
 @media only screen and (min-width: 12em) {
 	
 	body {
@@ -33,6 +34,7 @@
 	p {
 		font-family: 'Archivo Narrow', sans-serif;
 		font-size: 1rem;
+		line-height: 1.5rem;
 	}
 	
 	em {
@@ -55,36 +57,39 @@
 	ol {
 		list-style: none;
 	}	
+
+	.text-left {
+	  text-align: left;
+	}
+	
+	.text-right {
+	  text-align: right;
+	}
+	
+	.text-center {
+	  text-align: center;
+	}
+	
+	.normal {
+	  font-weight: normal;
+	}
+	
+	.bold {
+	  font-weight: bold;
+	}
+	
+	.italic {
+	  font-style: italic;
+	}
+		
+	table td {
+		font-family: 'Archivo Narrow', sans-serif;
+		color: #fff;
+	}
 }
 
-@media only screen and (min-width: 30em) {
-	
-	body {
-		margin: 0;
-		padding: 0;
-		text-align: center;
-	}
-	
-	h2 {
-		font-size: 1	.4em;
-		font-family: 'Lato', sans-serif;
-		font-weight: 300;
-	}
-	
-	h3 {
-		font-size: 1.2em;
-		font-family: 'Lato', sans-serif;
-		font-weight: 300;
-	}
-	
-	h4 {
-		font-size: 1em;
-		font-family: 'Lato', sans-serif;
-		font-weight: 300;
-	}
-	
-	p {
-		font-family: 'Archivo Narrow', sans-serif;
-		font-size: 1rem;
-	}
+/* ********************************** 404 *****************/
+
+.text-white {
+	color: #fff;
 }
