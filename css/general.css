@@ -31,9 +31,42 @@
 	}
 		
 	.logo {
-		width: 40px;
+		width: 30px;
 	}
 
+}
+
+@media only screen and (min-width: 30em) {
+
+	.header {
+		height: 5rem;
+		position: absolute;
+		top: 0rem;
+		width: 100%;
+	}
+	
+	nav {
+		padding-left: 1rem;
+	}
+	
+	nav li {
+		display: inline-block;
+		color: #fff;
+		font-family: 'Archivo Narrow', sans-serif;
+		padding-right: 4rem;
+		font-size: 1.25rem;
+		padding-top: .75rem;
+	}
+	
+	nav a {
+		color: #fff;
+		text-decoration: none;
+	}
+		
+	.logo {
+		width: 40px;
+	}
+	
 }
 
 /*********************************************************		Body			***************/
@@ -49,9 +82,7 @@
 	
 	.intro {
 		margin: 3rem auto 1rem;
-		font-size: 1.5rem;
 		max-width: 80%;
-		
 	}
 
 	.intro-desc {
@@ -60,44 +91,6 @@
 		margin-bottom: 3rem;
 	}
 }
-/*	
-@media only screen and (min-width: 30em) {
-		
-	.fullscale {
-		visibility: visible;
-		width: 100%;
-		margin-top: 3rem;
-	}
-	
-	.intro {
-		margin-top: -12rem;
-		font-size: 1.5rem;
-	}
-	
-}
-
-@media only screen and (min-width: 50em) {
-	
-	.fullscale {
-		visibility: visible;
-		width: 100%;
-		margin-top: 3rem;
-	}
-	
-	.intro {
-		margin-top: -20rem;
-		font-size: 3rem;
-	}
-	
-	.intro-desc {
-		max-width: 60%;
-		font-size: 1.5rem;
-		margin: 0 auto;
-		margin-bottom: 2rem;
-	}
-
-}
-*/
 
 /******************************************************* ABOUT **********************/
 
@@ -107,7 +100,7 @@
 }
 
 .about p {
-	color: #fff;
+	color: #000;
 	width: 70%;
 	margin: 0 auto;
 	padding-bottom: 1rem;
@@ -167,6 +160,11 @@
 	
 @media only screen and (min-width: 12em) {
 	
+	.box-s-1 {
+		width: 100%;
+		float: left;
+	}
+	
 	.box-s-1-2 {
 		width: 50%;
 		float: left;
@@ -197,10 +195,12 @@
 }
 
 .logo-inline {
-	padding-right: 1rem;
+	padding-left: 1rem;
+	height: 30px;
 }
 
 .logo-inline-list {
+	height: 25px;
 	padding-left: 1.5rem;
 }
 
@@ -271,7 +271,23 @@
 @media only screen and (min-width: 12em) {
 	
 	.foot {
-		height: 3rem;
+		height: 3.25rem;
+		background-color: #404048;
+		width: 100%;
+		overflow: auto;
+	}
+	
+	.copyright {
+		text-align: left;
+		margin-left: 18px;
+		color: #fff;
+	}
+}
+
+@media only screen and (min-width: 30em) {
+	
+	.foot {
+		height: 4rem;
 		background-color: #404048;
 		width: 100%;
 		overflow: auto;
