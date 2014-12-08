@@ -5,6 +5,13 @@
 
 @media only screen and (min-width: 12em) {
 	
+	/*.logo {
+		width: 60px;
+		position: absolute;
+		margin-top: 30%;
+		margin-left: -1.5rem;
+	}*/
+	
 	.header {
 		height: 3rem;
 		background-color: #404048;
@@ -28,10 +35,6 @@
 	nav a {
 		color: #fff;
 		text-decoration: none;
-	}
-		
-	.logo {
-		width: 30px;
 	}
 
 }
@@ -74,22 +77,45 @@
 
 @media only screen and (min-width: 12em) {
 	
-	.fullscale {
-		visibility: visible;
-		width: 100%;
-		margin-top: 3rem;
+	.intro-para {
+		background-image: url("http://placehold.it/1500x800");
+		background-position: 50% 50%;
+		background-position: 50%; 
+		background-position: 100px 100px;
+		background-position: center;
+		background-repeat: no-repeat;
+		padding: 3rem 0;
+		margin-top: 0;
 	}
 	
 	.intro {
-		margin: 3rem auto 1rem;
-		max-width: 80%;
+		margin: 4rem auto 1rem;
 	}
 
 	.intro-desc {
 		width: 70%;
-		margin: 0 auto;
-		margin-bottom: 3rem;
+		margin: 0 auto 2rem;
 	}
+}
+
+@media only screen and (min-width: 30em) {
+
+	.intro-para {
+		padding: 8rem 0;
+		margin-top: 0;
+		margin-bottom: 0;
+}
+
+}
+
+@media only screen and (min-width: 50em) {
+
+	.intro-para {
+		padding: 16rem 0 16rem;
+		margin-top: 0;
+		margin-bottom: 0;
+}
+
 }
 
 /******************************************************* ABOUT **********************/
