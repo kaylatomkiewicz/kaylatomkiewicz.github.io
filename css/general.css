@@ -5,13 +5,6 @@
 
 @media only screen and (min-width: 12em) {
 	
-	/*.logo {
-		width: 60px;
-		position: absolute;
-		margin-top: 30%;
-		margin-left: -1.5rem;
-	}*/
-	
 	.header {
 		height: 3rem;
 		background-color: #404048;
@@ -28,13 +21,21 @@
 		display: inline-block;
 		color: #fff;
 		font-family: 'Archivo Narrow', sans-serif;
-		padding-right: 1.5rem;
-		margin-top: -3rem;
+		padding-right: 3rem;
+		padding-left: 1rem;
+		margin-top: -.35rem;
 	}
 	
 	nav a {
 		color: #fff;
 		text-decoration: none;
+	}
+	
+	.logo {
+		width: 40px;
+		position: absolute;
+		margin-top: -1.7rem;
+		margin-left: -1.2rem;
 	}
 
 }
@@ -67,9 +68,32 @@
 	}
 		
 	.logo {
-		width: 40px;
+		width: 60px;
+		position: absolute;
+		margin-top: -2.4rem;
+		margin-left: -2rem;
 	}
 	
+}
+
+@media only screen and (min-width: 50em) {
+	
+	nav li {
+		display: inline-block;
+		color: #fff;
+		font-family: 'Archivo Narrow', sans-serif;
+		padding-right: 6rem;
+		padding-left: 3rem;
+		margin-top: -.35rem;
+	}
+	
+	.logo {
+		width: 80px;
+		position: absolute;
+		margin-top: -2.9rem;
+		margin-left: -2.5rem;
+	}
+
 }
 
 /*********************************************************		Body			***************/
@@ -122,7 +146,7 @@
 
 .about {
 	padding: 6rem 0;
-	background-color: #8fd4bc;
+	background-color: #fff;
 }
 
 .about p {
@@ -207,8 +231,8 @@
 
 @media only screen and (min-width: 50em) {
 
-	.box-xl-1-5 {
-		width: 20%;
+	.box-xl-1-4 {
+		width: 25%;
 		float: left;
 	}
 }
