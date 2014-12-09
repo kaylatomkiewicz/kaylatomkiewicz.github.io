@@ -102,7 +102,7 @@
 @media only screen and (min-width: 12em) {
 	
 	.intro-para {
-		background-image: url("http://placehold.it/1500x800");
+		background-image: url("images/");
 		background-position: 50% 50%;
 		background-position: 50%; 
 		background-position: 100px 100px;
@@ -250,14 +250,16 @@
 }
 
 .logo-inline {
-	padding-left: 1rem;
+	margin-left: -.35rem; 
+	padding-right: 1rem;
 	height: 30px;
 	margin-bottom: -.4rem;
 }
 
 .logo-inline-list {
 	height: 25px;
-	padding-left: 1.5rem;
+	padding-left: 2%;
+	margin-bottom: -.35rem;
 }
 
 @media only screen and (min-width: 12em) {
