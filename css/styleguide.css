@@ -1,7 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
 
-
 @media only screen and (min-width: 12em) {
 	
 	body {
@@ -90,6 +89,7 @@
 	a {
 		list-style: none;
 	}
+	
 }
 
 @media only screen and (min-width: 30em) {
